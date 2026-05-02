@@ -9,3 +9,5 @@ CREATE TABLE "widgets" (
     "purpose" text,
     CONSTRAINT "widgets_pkey" PRIMARY KEY (id)
 );
+
+-- SELECT setval('widgets_id_seq', (SELECT MAX(id) FROM widgets));

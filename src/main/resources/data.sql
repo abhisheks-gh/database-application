@@ -4,3 +4,4 @@ INSERT INTO widgets (id, name, purpose) VALUES
 (3, 'Widget C', 'Enhances productivity.'),
 (4, 'Widget D', 'Perfect for outdoor activities.'),
 (5, 'Widget E', 'Improves overall well-being.');
+-- ON CONFLICT (id) DO NOTHING;
